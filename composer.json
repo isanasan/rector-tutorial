@@ -12,9 +12,11 @@
             "name": "isanasan"
         }
     ],
-    "require": {},
     "config": {
         "sort-packages": true,
         "bin-dir": "bin"
+    },
+    "require-dev": {
+        "rector/rector": "^0.13.6"
     }
 }
