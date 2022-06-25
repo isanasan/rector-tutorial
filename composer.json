@@ -4,7 +4,13 @@
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Isanasan\\RectorTutorial\\": "src/"
+            "Isanasan\\RectorTutorial\\": "src/",
+            "Rector\\": "rules"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rector\\Tests\\": "rures-tests"
         }
     },
     "authors": [
